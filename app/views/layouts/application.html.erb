@@ -1,0 +1,8 @@
+<html>
+<body>
+<%- flash.each do |flash| %>
+  <%= flash.inspect %> 
+<% end %>
+<%= yield %>
+</body>
+</html>

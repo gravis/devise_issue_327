@@ -1,0 +1,6 @@
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-19 11:24:37) [GET]
+Redirected to http://test.host/users/sign_in?unauthenticated=true
+Filter chain halted as [:authenticate_user!] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
